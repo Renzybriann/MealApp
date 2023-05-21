@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gear_color">#FFC107</color>
+    <color name="light_green">#D2F0D2</color>
+    <color name="mid_green">#99DD99</color>
 </resources>
