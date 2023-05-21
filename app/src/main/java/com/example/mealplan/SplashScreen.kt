@@ -9,6 +9,7 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
+
         val thread: Thread = object : Thread() {
             override fun run() {
                 try {
@@ -21,6 +22,7 @@ class SplashScreen : AppCompatActivity() {
                     overridePendingTransition(R.anim.fade_in2, R.anim.fade_out2)
                     finish()
                 }
+
             }
         }
         thread.start()

@@ -57,8 +57,7 @@
             android:exported="false" />
         <activity
             android:name=".Food1"
-            android:exported="false" />
-        <activity
+            android:exported="false" />        <activity
             android:name=".ChooseMealPlan"
             android:exported="false" />
         <activity
