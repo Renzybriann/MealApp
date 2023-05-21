@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MealPlan"
         tools:targetApi="31">
         <activity
-            android:name=".Splash"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".Testing"
@@ -41,9 +41,6 @@
             android:name=".WeightCompare"
             android:exported="false" />
         <activity
-            android:name=".MealPlan3"
-            android:exported="false" />
-        <activity
             android:name=".MealPlan2"
             android:exported="false" />
         <activity
@@ -59,16 +56,13 @@
             android:name=".MealPlan1"
             android:exported="false" />
         <activity
-            android:name=".Breakfast"
-            android:exported="false" />
-        <activity
             android:name=".Food1"
             android:exported="false" />
         <activity
             android:name=".ChooseMealPlan"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
